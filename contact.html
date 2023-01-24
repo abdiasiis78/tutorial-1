@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact</title>
+    <script src="https://kit.fontawesome.com/74fb672595.js" crossorigin="anonymous"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Righteous&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    
+  <section class="sub-header">
+    
+      
+    <nav>
+    
+        <div class="container">
+       
+             <div class="logo"><a href="index.html"><img src="images/logo1.png"</a></div>
+        <div class="nav-links" id="navlinks">
+        <i class="fa-solid fa-xmark" onclick=" hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+               <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                 <li><a href="contact.html">CONTACT</a></li>
+
+            </ul>
+            </div>
+             <i class="fa-solid fa-bars" onclick="showMenu()"></i>    
+      </div>
+        </nav>
+        
+    <h1>Contact Us</h1>
+    </section>
+  <!-----------------------Contact us----------------------------------->    
+      
+  <section class="location">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.969228823729!2d36.9344866144494!3d-1.1820776991377844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3ff0f27b27f5%3A0xb0e3964cef8200a0!2sKenyatta%20University%2C%20Main%20Campus!5e0!3m2!1sen!2ske!4v1659683273519!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+      
+      </section>   
+      
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+            <div>
+              <img src="images/home.png">  
+                <span>
+                <h5>XYZ Road ABC Building</h5>
+                 <p>NAIROBI  KENYA NAIROBI COUNTY</p>   
+                </span>
+                </div>
+             <div>
+              <img src="images/phone.png">  
+                <span>
+                <h5>+1 2365789432</h5>
+                 <p>Monday To Saturday, 10AM To 6PM</p>   
+                </span>
+                </div>
+                <div>
+              <img src="images/envelope.png">  
+                <span>
+                <h5>Info@baydiye.com</h5>
+                 <p>Email Us Your Query</p>   
+                </span>
+                </div> 
+            </div>
+            <div class="contact-col">
+     <form action="form-handler.php" method="post">
+      <input type="text" name="name" placeholder="inter your name" required>          
+      <input type="email" name="email" placeholder="inter email address" required>          
+      <input type="text" name="subject" placeholder="inter your subject" required>          
+     <textarea rows="8" name="message" placeholder="message" required></textarea>
+      <button type="submit" class="hero-btn red-btn">send massage</button>   
+    </form>
+            
+            </div>
+
+        </div>
+      
+      </section>  
+      
+    
+      
+    <!-------------------------Footer-------------------------->
+      
+      <section class="footer">
+      <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis, purus sit amet pretium fringilla, diam ex venenatis ante,<br> at iaculis lectus lorem non sapien. Pellentesque non fermentum ante, id euismod odio. Quisque porttitor tellus sed metus .</p>
+          <div class="icons">
+        <img src="images/facebook.png">
+         <img src="images/instagram.png">
+          <img src="images/twitter.png">
+           <img src="images/linked%20in.png"><br> 
+              <p>waxaa kufara yaraystay<br> ABDI ASIS HALANE HASEN</p>
+          </div>
+      </section>
+      
+      
+    <!-- javascript for toggle menu -->
+    <script>
+      var navlinks=document.getelementByid("navlinks");
+        function showeMenu(){
+            navlinks.style.right="0";
+            
+        }
+         function hideMenu(){
+            navlinks.style.right="-200px";
+         }
+        
+        
+      </script>
+    
+    
+    </body>
+
+</html>
